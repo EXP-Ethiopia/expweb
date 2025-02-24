@@ -3,104 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EXP Ethiopia - Where Growth Meets Experience</title>
-    <meta name="description" content="EXP Ethiopia is a community of passionate individuals focused on growth, collaboration, and technological advancement.">
-  <link rel="stylesheet" href="style.css">
-    
+    <title>EXP Ethiopia - Empowering Tech Innovation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
     <nav class="navbar">
-        <div class="nav-container">
-            <a href="/" class="nav-logo">
-                <div class="logo-box">
-                    <span>EXP</span>
-                </div>
-                <span class="logo-text">Ethiopia</span>
-            </a>
-            
-            <div class="nav-links" id="navLinks">
-                <a href="/about.html">About</a>
-                <a href="/community.html">Community</a>
-                <a href="/projects.html">Projects</a>
-                <a href="/resources.html">Resources</a>
-                <a href="/sponsors.html">Sponsors</a>
-                <a href="/contact.html">Contact</a>
-                <div class="social-links">
-                    <a href="https://github.com/exp-ethiopia" target="_blank" rel="noopener noreferrer" class="social-link">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
-                    </a>
-                    <a href="https://t.me/expethiopia" target="_blank" rel="noopener noreferrer" class="social-link">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
-                    </a>
-                </div>
-                <a href="/join.html" class="join-btn">Join Community</a>
-            </div>
-            
-            <button class="menu-btn" id="menuBtn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="menu-icon"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
-            </button>
+        <div class="nav-brand">
+          <img class="img" src="photo_5895627137237501973_y-removebg-preview.png" alt="">
+            <span>EXP Ethiopia</span>
         </div>
+        <div class="nav-menu" id="navMenu">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#vision" class="nav-link">Vision</a>
+            <a href="#expertise" class="nav-link">Expertise</a>
+            <a href="#join" class="nav-link">Join Us</a>
+        </div>
+        <button class="menu-btn" id="menuBtn">
+            <i data-lucide="menu"></i>
+        </button>
     </nav>
 
     <main>
-        <section class="hero">
+        <section id="home" class="hero">
             <div class="hero-content">
-                <div class="badge">Join our growing community of innovators</div>
-                <h1>
-                    <span>Where Growth Meets</span>
-                    <span class="highlight">Experience</span>
-                </h1>
-                <p>Join a community of passionate individuals focused on growth, collaboration, and technological advancement. Together, we foster experience, share knowledge, and create space for like-minded individuals to grow together.</p>
-                <div class="hero-buttons">
-                    <a href="/join.html" class="primary-btn">
-                        Join the Community
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                    </a>
-                    <a href="/projects.html" class="secondary-btn">Explore Projects</a>
+                <div class="hero-text">
+                    <h1 class="glitch" data-text="INNOVATE">INNOVATE</h1>
+                    <h2 class="gradient-text">Where Growth Meets Experience</h2>
+                    <p class="hero-description">Join a community of passionate developers, designers, and innovators shaping Ethiopia's digital future.</p>
+                    <div class="hero-cta">
+                        <button class="btn btn-primary">Start Your Journey</button>
+                        <button class="btn btn-outline">Learn More</button>
+                    </div>
                 </div>
-                <div class="hero-cards">
-                    <div class="hero-card">
-                        <div class="card-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-                        </div>
-                        <h3>Active Members</h3>
-                        <p>Join our thriving community of developers and creators</p>
+      <!-- From Uiverse.io by eslam-hany --> 
+<div class="card"> Join our growing community of innovators
+</div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="arrow"></div>
+            </div>
+        </section>
+
+        <section id="vision" class="vision">
+            <div class="vision-grid">
+                <div class="vision-card" data-aos="fade-up">
+                    <i data-lucide="rocket"></i>
+                    <h3>Innovation Hub</h3>
+                    <p>Fostering groundbreaking ideas and solutions</p>
+                </div>
+                <div class="vision-card" data-aos="fade-up" data-aos-delay="100">
+                    <i data-lucide="users"></i>
+                    <h3>Community Growth</h3>
+                    <p>Building strong networks of tech enthusiasts</p>
+                </div>
+                <div class="vision-card" data-aos="fade-up" data-aos-delay="200">
+                    <i data-lucide="graduation-cap"></i>
+                    <h3>Skill Development</h3>
+                    <p>Continuous learning and improvement</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="expertise" class="expertise">
+            <h2>Our Expertise</h2>
+            <div class="expertise-slider" id="expertiseSlider">
+                <div class="expertise-track">
+                    <div class="expertise-item">
+                        <i data-lucide="code"></i>
+                        <span>Web Development</span>
                     </div>
-                    <div class="hero-card">
-                        <div class="card-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 18 22 12 16 6"/><path d="M8 6 2 12 8 18"/></svg>
-                        </div>
-                        <h3>Real Projects</h3>
-                        <p>Work on meaningful projects that make a difference</p>
+                    <div class="expertise-item">
+                        <i data-lucide="smartphone"></i>
+                        <span>Mobile Apps</span>
                     </div>
-                    <div class="hero-card">
-                        <div class="card-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
-                        </div>
-                        <h3>Learn & Grow</h3>
-                        <p>Access resources and mentorship to accelerate your growth</p>
+                    <div class="expertise-item">
+                        <i data-lucide="gamepad-2"></i>
+                        <span>Game Development</span>
+                    </div>
+                    <div class="expertise-item">
+                        <i data-lucide="palette"></i>
+                        <span>UI/UX Design</span>
+                    </div>
+                    <div class="expertise-item">
+                        <i data-lucide="database"></i>
+                        <span>Data Science</span>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="features" id="features">
-            <!-- Features content will be dynamically loaded -->
-        </section>
-
-        <section class="projects" id="projects">
-            <!-- Projects content will be dynamically loaded -->
-        </section>
-
-        <section class="stats" id="stats">
-            <!-- Stats content will be dynamically loaded -->
-        </section>
-
-        <section class="testimonials" id="testimonials">
-            <!-- Testimonials content will be dynamically loaded -->
+        <section id="join" class="join">
+            <div class="join-content">
+                <h2>Join Our Community</h2>
+                <form id="joinForm" class="join-form">
+                    <div class="form-group">
+                        <input type="text" id="name" required>
+                        <label for="name">Full Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required>
+                        <label for="email">Email Address</label>
+                    </div>
+                    <div class="form-group">
+                        <select id="expertise" required>
+                            <option value="">Select Your Expertise</option>
+                            <option value="web">Web Development</option>
+                            <option value="mobile">Mobile Development</option>
+                            <option value="game">Game Development</option>
+                            <option value="design">UI/UX Design</option>
+                            <option value="data">Data Science</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit Application</button>
+                </form>
+            </div>
+            <div class="join-pattern"></div>
         </section>
     </main>
 
-    <script type="module" src="/src/main.js"></script>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+             
+                <span>EXP Ethiopia</span>
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com" target="_blank" rel="noopener">
+                    <i data-lucide="github"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener">
+                    <i data-lucide="linkedin"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" rel="noopener">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                      </svg>
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 EXP Ethiopia. Crafted with <i data-lucide="heart"></i> in Addis Ababa</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
